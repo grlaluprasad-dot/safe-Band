@@ -9,8 +9,8 @@ class Settings(BaseSettings):
 
     database_url: str = "sqlite:///./safeband_dev.db"
 
-    frontend_base_url: str = "http://localhost:5173"
-    cors_origins: str = "http://localhost:5173"
+    frontend_base_url: str = "https://safebandbylalu.netlify.app"
+    cors_origins: str = "https://safebandbylalu.netlify.app,http://localhost:5173"
 
     smtp_host: str = ""
     smtp_port: int = 587
